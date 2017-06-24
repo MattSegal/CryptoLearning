@@ -1,6 +1,4 @@
-# Crypto Fun
-
-## Euclidean Algorithm
+## Euclidean Algorithm Example
 
 ```
 Find GCD of 274 and 63
