@@ -1,5 +1,7 @@
 ## Euclidean Algorithm Example
 
+The Euclidean algorithm is used to find the greatest common divisor (GCD) of two integers.
+
 ```
 Find GCD of 274 and 63
 
@@ -10,18 +12,32 @@ Find GCD of 274 and 63
     5) 3   = 3 * 1  + 0
 
 GCD of 274 and 63 is 1
+
 ```
 
 ## Extended Euclidean Algorithm
 
+The extended Euclidean algorithm is used to solve the following problem, known as the 'linear Diophantine equation':
+
+```
+Given two integers, a and b, find the values x and y such that:
+
+    GCD(a, b) = ax + by
+
+```
+
+Example:
+
 ```
 Find x and y such that
 
-    ax + by = GCD(a, b)
+    GCD(a, b) = ax + by
 
-in this case
-
-    1 = 274x + 63y
+for values a = 274 and b = 63 we have
+    
+    GCD(a, b) = ax + by
+    GCD(274, 63) = 274x + 63y
+    1 = 274x + 63y              // GCD is 1
 
 Start with equation (4), the rearrange so '1' is on the left hand side (LHS)
     

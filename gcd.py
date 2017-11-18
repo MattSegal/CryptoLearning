@@ -1,5 +1,7 @@
 """
-Greatest Common Divisor - Finds the greatest common divisor of 2 integers
+Greatest Common Divisor
+----------------------
+Finds the greatest common divisor of 2 integers
 
 Usage:      python gcd.py <integer1> <integer2>
 Example:    python gcd.py 42823 6409 => 17
